@@ -17,7 +17,7 @@ public class Main {
 
         int value1 = Integer.parseInt(inputs[0]);
         int value2 = Integer.parseInt(inputs[2]);
-        if (value1 > 10 || value2 > 10) {
+        if (value1 > 10 || value2 > 10){
             throw new Exception();
         }
 
